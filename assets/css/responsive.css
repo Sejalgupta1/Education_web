@@ -1,0 +1,89 @@
+ 
+@media only screen and (max-width : 1140px) {
+	.nav_list{
+		flex-direction: column;
+	}
+	.navbar{
+		flex-direction: column;
+		height: 475px;
+		transition: all 0.7s ease-out;
+	}
+	.rightnav{
+		text-align: center;
+	}
+	#search{
+		width: 100%;
+	}
+	.burger{
+		display: block;
+	}
+	.h-nav-resp{
+		height: 72px;
+	}
+	.v-class-resp{
+		opacity: 0;
+	}
+	.box-main{
+		flex-direction: column-reverse;
+		max-width: 100%;
+	}
+	.sec_right{
+		flex-direction: column-reverse;
+		height: auto;
+	}
+	.text_big{
+		text-align: center;
+	}
+	.text_small{
+		text-align: center;
+	}
+	.buttons  {
+		text-align: center;
+	}
+	.para{
+		padding: 0px;
+		width: 100%;
+	}
+	.thumbnail{
+		width: 100%; 
+	}
+	.thumbnail img{  
+			 width: 100%;
+			 margin: 20px 0;
+	}
+	.sec_left{
+		flex-direction: column-reverse;		 
+		height: auto;
+	}
+	.secSub_tag{
+		margin: 20px 0;
+	}
+	.firstSection { 
+		margin-bottom: 10px;
+	}
+}
+
+
+/*
+ 2.) Media Query for Tablet
+ ===============================*/
+@media only screen and (min-width : 768px) and (max-width : 1002px) {
+/* Styles */
+}
+
+
+/*
+ 3.) Media Query for mobile
+ ===============================*/
+@media only screen and (max-width : 767px){
+/* Mobile Grids */
+	.container_12 [class*="grid_"]{
+		display: block;
+		float: none;
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+
+}
+
